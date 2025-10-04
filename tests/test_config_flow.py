@@ -1130,7 +1130,7 @@ async def test_form_options_error(
     [
         (
             {
-                CONF_SOLVER: "",
+                CONF_SOLVER: None,
                 CONF_NAME: DEFAULT_NAME,
                 CONF_STATION_ID: "208656",
             },
